@@ -1,4 +1,6 @@
 # MVMZ-Advanced_ChangeSaveLocation
+Works only with Windows
+
 Paths (param -> location):
 Here you define the path to the savefiles
 
@@ -10,7 +12,6 @@ Here you define the path to the savefiles
 {SO}:\Users\Public\Documents\
 {SO}:\Users\{User}\
 {SO}:\Users\{User}\Documents\
-Definido manualmente
 
 {Game} is where files are located, like Game.exe
 {SO} is the drive where the operating system is installed, like C

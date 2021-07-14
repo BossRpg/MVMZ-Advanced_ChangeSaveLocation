@@ -2,7 +2,9 @@
  * @plugindesc Advanced - Change Save Location (MV and MZ)
  *  Version 0.1 Beta (Works only with Windows)
  * @author DevWithCoffee (Aka Dev_With_Coffee)
+ *
  * @param location
+ * @desc If you try to enter manually it will be set to Default automatically
  * @type select
  * @default {Game}\save\
  * @option {Game}\save\
@@ -84,6 +86,10 @@
 				break;
 			case "Documents of Current User":
 				new_path = process.env.USERPROFILE+"/Documents";
+				break;
+			default:
+				parameters['location'] = "Default";
+				new_path = path.join(base, 'save/');
 		}
 		
 		if (parameters['location'] != "Default" && parameters['location'] != "Current Folder"){

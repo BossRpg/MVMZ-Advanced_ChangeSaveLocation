@@ -1,6 +1,6 @@
 /*:
  * @plugindesc Advanced - Change Save Location (MV and MZ)
- *  Version 0.1 Beta (Works only with Windows)
+ *  Version 0.4 Beta (Works only on Windows with NW.js)
  * @author DevWithCoffee (Aka Dev_With_Coffee)
  *
  * @param location
@@ -55,7 +55,7 @@
  */
 
 (function() {
-	if (process.env.OS == "Windows_NT") {
+	if (process.env.OS == "Windows_NT" && Utils.isNwjs()) {
 		var path = require('path');
 		var base = path.dirname(process.mainModule.filename);
 		var new_path = "";

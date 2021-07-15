@@ -121,11 +121,18 @@
 				fs.mkdirSync(new_path);
 			}
 		}
-		StorageManager.fileDirectoryPath = function() {
-			return new_path;
+		/* RMMV */
+		if(StorageManager.localFileDirectoryPath){
+			StorageManager.localFileDirectoryPath = function() {
+				return new_path;
+			};
 		}
-		StorageManager.localFileDirectoryPath = function() {
-			return new_path;
-		};
+		
+		/* RMMZ */
+		if(StorageManager.fileDirectoryPath){
+			StorageManager.fileDirectoryPath = function() {
+				return new_path;
+			}
+		}
 	}
 })();

@@ -7,11 +7,11 @@ Here you define the path to the savefiles
 {Game}\save\ (Default)
 {Game}\
 {SO}:\ProgramData\
-{SO}:\Users\\{User}\Appdata\Local\
-{SO}:\Users\\{User}\Appdata\Roaming\
+{SO}:\Users\ {User}\Appdata\Local\
+{SO}:\Users\ {User}\Appdata\Roaming\
 {SO}:\Users\Public\Documents\
-{SO}:\Users\\{User}\
-{SO}:\Users\\{User}\Documents\
+{SO}:\Users\ {User}\
+{SO}:\Users\ {User}\Documents\
 
 {Game} is where files are located, like Game.exe
 {SO} is the drive where the operating system is installed, like C

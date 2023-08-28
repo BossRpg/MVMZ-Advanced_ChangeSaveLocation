@@ -33,7 +33,7 @@ Warning: Symbols, accented letters and non-English characters
 	     will be removed automatically, except "+", "-" and "_"
 
 Example, path 4 with directory name 3:
-Result C:\Users\{User}\Appdata\Local\Project_1
+Result C:\Users\ {User}\Appdata\Local\Project_1
 
 
 

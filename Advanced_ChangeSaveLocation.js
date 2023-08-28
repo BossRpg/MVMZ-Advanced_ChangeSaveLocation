@@ -1,6 +1,7 @@
 /*:
  * @plugindesc Advanced - Change Save Location (MV and MZ)
- *  Version 0.4 Beta (Works only on Windows with NW.js)
+ *  Version 0.5 Beta (Works only on Windows with NW.js)
+ * Last update: 28/08/2023
  * @author DevWithCoffee (Aka Dev_With_Coffee)
  *
  * @param location
